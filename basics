@@ -3,12 +3,10 @@ Python Overview-
 What is Python?
 Created by Guido van Rossum in 1991.
 
-
 Used for:
 Web Development (server-side).
 Software Development.
 Mathematics and System Scripting.
-
 
 What Can Python Do?
 Build web applications.
@@ -16,7 +14,6 @@ Automate tasks and workflows.
 Connect to databases, read, and modify files.
 Handle big data and complex math.
 Create quick prototypes or production-ready software.
-
 
 Why Choose Python?
 Works on all platforms (Windows, Mac, Linux, Raspberry Pi).
@@ -30,3 +27,83 @@ Can be coded in text editors or IDEs like Thonny, PyCharm, and Eclipse.
 Python Syntax Basics
 Commands end with new lines, not semicolons.
 Indentation (spaces) defines code blocks (loops, functions, classes).
+
+--------------------------------------------------------------------------------
+1. Python Features
+
+Easy to Learn: Simple syntax similar to English.
+Interpreted: Runs line-by-line, no compilation required.
+Cross-Platform: Works on Windows, Mac, Linux, etc.
+Versatile: Used for web development, automation, data science, etc.
+
+2. Data Types
+
+Text Type: str
+Numeric Types: int, float, complex
+Sequence Types: list, tuple, range
+Mapping Type: dict
+Set Types: set, frozenset
+Boolean Type: bool
+Binary Types: bytes, bytearray, memoryview
+
+3. Variables
+
+No need to declare the type.
+Example:
+          name = "Ashish"
+          age = 15
+          is_active = True
+
+4. Control Statements
+
+If-Else:
+x = 10
+if x > 5:
+    print("Greater")
+else:
+    print("Smaller")
+For Loop:
+for i in range(5):
+    print(i)
+While Loop:
+x = 1
+while x < 5:
+    print(x)
+    x += 1
+
+5. Functions
+
+Define reusable blocks of code:
+
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Ashish"))
+
+6. Classes and Objects
+
+Object-oriented programming:
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+p = Person("Ashish", 15)
+print(p.name)
+
+7. Modules
+
+Import and use external code:
+
+import math
+print(math.sqrt(16))
+
+8. File Handling
+
+Reading a File:
+with open("file.txt", "r") as file:
+    print(file.read())
+Writing to a File:
+with open("file.txt", "w") as file:
+    file.write("Hello, Python!")
