@@ -1,0 +1,32 @@
+Python Overview-
+
+What is Python?
+Created by Guido van Rossum in 1991.
+
+
+Used for:
+Web Development (server-side).
+Software Development.
+Mathematics and System Scripting.
+
+
+What Can Python Do?
+Build web applications.
+Automate tasks and workflows.
+Connect to databases, read, and modify files.
+Handle big data and complex math.
+Create quick prototypes or production-ready software.
+
+
+Why Choose Python?
+Works on all platforms (Windows, Mac, Linux, Raspberry Pi).
+Easy-to-read syntax, resembling English.
+Requires fewer lines of code than most languages.
+Runs line-by-line, making testing and prototyping fast.
+Supports multiple programming styles (procedural, OOP, functional).
+Good to Know
+Latest version: Python 3 (recommended).
+Can be coded in text editors or IDEs like Thonny, PyCharm, and Eclipse.
+Python Syntax Basics
+Commands end with new lines, not semicolons.
+Indentation (spaces) defines code blocks (loops, functions, classes).
